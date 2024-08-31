@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px 140px;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+/* ********/
+/* HEADER */
+/* ****** */
+.header {
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+  color: #f53838;
+}
+
+header #logo span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.logo-text {
+  font-size: 20px;
+  color: #0b132a;
+  font-weight: 500;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: #4f5665;
+}
+
+.sign-in-btn {
+  border: none;
+  color: #0b132a;
+  margin-right: 10px;
+}
+
+.sign-in-btn,
+.sign-up-btn {
+  font-weight: 600;
+  background: transparent;
+}
+
+.sign-up-btn {
+  border: 1px solid #f53855;
+  color: #f53855;
+  padding: 6px 20px;
+  border-radius: 50px;
+}
+
+.sign-up-btn:hover {
+  background-color: #f53838;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ************* */
+/* HERO SECTION */
+/* ************ */
+.hero-section {
+  margin-bottom: 100px;
+}
+
+.heading-primary {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  margin-bottom: 25px;
+}
+
+.heading-primary span {
+  font-weight: 700;
+}
+
+.hero-text {
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 25px;
+}
+
+.hero-text span {
+  font-weight: 600;
+}
+
+.hero-btn {
+  padding: 15px 65px;
+  font-weight: 700;
+  background-color: #f53838;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.img-col img {
+  width: 612px;
+  height: 383px;
+}
+
+.info{
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+  padding: 20px 40px;
+}
+
+.info .flex {
+  gap: 25px;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+  margin-bottom: 5px;
+}
+
+.locations {
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
+  padding: 0 150px;
+}
